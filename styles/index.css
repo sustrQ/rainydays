@@ -13,16 +13,19 @@ body {
 }
 
 .toppnav > img {
-  width: 15%;
+  width: 13vw;
   margin-left: 30px;
 }
 
 .toppnav > i.fas {
   color: white;
-  font-size: 120%;
   float: right;
-  padding-right: 30px;
-  margin-top: 5%;
+  display: inline-block;
+  position: relative;
+  font-size: 3vw;
+  padding-right: 3vw;
+  margin-top: 4vh;
+  bottom: 2vh;
 }
 
 .bottomnav {
