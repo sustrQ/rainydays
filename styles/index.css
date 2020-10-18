@@ -24,11 +24,26 @@ body {
   position: relative;
   font-size: 6vw;
   padding-right: 6vw;
-  left: 30vw;
+  left: 16vw;
 }
+
+.submenu {
+    display: none;
+    position: absolute;
+  }
+  .menu > li:hover > .submenu {
+    display: block;
+    color: white;
+  }
+  
 
 .search {
     display: inline-block;
+    position: relative;
+    left: 39vw;
+    background-color: white;
+    bottom: 50px;
+    
 }
 
 .search > i.fas {
@@ -36,21 +51,19 @@ body {
     display: inline-block;
     position: relative;
     font-size: 6vw;
-    padding-right: 6vw;
-    left: 30vw;
-
 }
 
 .toppnav input[type=text] {
-    padding: 0px;
-    width: 0vw;
+    width: 10vw;
     border: none;
     font-size: 17px;
 }
 
 .toppnav input[type=text]:focus {
-    width: 100%
+    width: 100%;
 }
+
+
 
 /*
 .toppnav input[type=text] {
