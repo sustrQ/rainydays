@@ -31,7 +31,7 @@ body {
     position: relative;
     left: 6vw;
     bottom: 2vw;
-    
+    width: 100%;
 }
 
 .search > i.fas {
@@ -47,9 +47,9 @@ body {
 }
 
 .toppnav input[type=text] {
-    width: 40%;
+    width: 100%;
     border: none;
-    font-size: 17px;
+    font-size: 40px;
     padding-top: 9px;
     padding-bottom: 9px;
 }
@@ -57,7 +57,7 @@ body {
 .toppnav input[type=text]:focus {
      display: inline-block;
     position: relative;
-    width: 40%;
+    width: 100%;
     border: none;
     font-size: 17px;
     padding-top: 9px;
