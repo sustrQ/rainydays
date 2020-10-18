@@ -13,9 +13,6 @@ body {
 }
 
 .toppnav > img {
-    position: relative;
-    display: inline-block;
-    top: 1vw;
   width: 28vw;
   margin-left: 10px;
 }
