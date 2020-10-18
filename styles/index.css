@@ -9,13 +9,15 @@ body {
     background-image: url(/images/texture2.jpg);
     background-size: cover;
   background-color: #e6e6e6;
-  padding-top: 10px;
   padding-bottom: 5px;
 }
 
 .toppnav > img {
-  width: 30vw;
-  margin-left: 30px;
+    position: relative;
+    display: inline-block;
+    top: 1vw;
+  width: 28vw;
+  margin-left: 10px;
 }
 
 .toppnav > i.fas {
@@ -23,26 +25,16 @@ body {
   display: inline-block;
   position: relative;
   font-size: 6vw;
-  padding-right: 6vw;
-  left: 16vw;
+  left: 5vw;
+  bottom: 10px;
+  padding-right: 5vw;
 }
-
-.submenu {
-    display: none;
-    position: absolute;
-  }
-  .menu > li:hover > .submenu {
-    display: block;
-    color: white;
-  }
-  
 
 .search {
     display: inline-block;
     position: relative;
-    left: 39vw;
-    background-color: white;
-    bottom: 50px;
+    left: 6vw;
+    bottom: 2vw;
     
 }
 
@@ -50,17 +42,28 @@ body {
     color: #063e4b;
     display: inline-block;
     position: relative;
-    font-size: 6vw;
+    top: 6px;
+    font-size: 4vw;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 3px;
+    transform: rotateZ(90deg);
 }
 
 .toppnav input[type=text] {
-    width: 10vw;
+    width: 70%;
     border: none;
     font-size: 17px;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
 
 .toppnav input[type=text]:focus {
     width: 100%;
+    border: none;
+    font-size: 17px;
+    padding-top: 9px;
+    padding-bottom: 9px;
 }
 
 
