@@ -14,19 +14,29 @@ body {
 }
 
 .toppnav > img {
-  width: 25vw;
+  width: 30vw;
   margin-left: 30px;
 }
 
 .toppnav > i.fas {
   color: #063e4b;
-  float: right;
+  text-align: right;
   display: inline-block;
   position: relative;
   font-size: 6vw;
-  padding-right: 3vw;
-  top: 4vh;
-  bottom: 2vh;
+  padding-right: 6vw;
+  left: 10vw;
+  
+}
+
+.toppnav input[type=text] {
+    padding: 6px;
+    width: 90px;
+    border: none;
+    font-size: 17px;
+    display: inline-block;
+    position: relative;
+    left: 5vw;
 }
 
 .bottomnav {
