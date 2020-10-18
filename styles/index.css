@@ -6,16 +6,15 @@ body {
 }
 
 .toppnav {
-background-image: url(/images/texture2.jpg);
-background-size: cover;
+    background-image: url(/images/texture2.jpg);
+    background-size: cover;
   background-color: #e6e6e6;
   padding-top: 10px;
   padding-bottom: 5px;
-  margin-bottom: -16px;
 }
 
 .toppnav > img {
-  width: 20vw;
+  width: 25vw;
   margin-left: 30px;
 }
 
@@ -24,7 +23,7 @@ background-size: cover;
   float: right;
   display: inline-block;
   position: relative;
-  font-size: 5vw;
+  font-size: 6vw;
   padding-right: 3vw;
   top: 4vh;
   bottom: 2vh;
@@ -33,13 +32,16 @@ background-size: cover;
 .bottomnav {
   background-color: #144a57;
   text-align: center;
+  padding-top: 0.1px;
+  padding-bottom: 0.1px;
 }
 
 .bottomnav > ul li {
   display: inline;
   color: white;
-  font-size: 3vw;
+  font-size: 4vw;
   margin: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (min-width: 800px) {
