@@ -27,17 +27,17 @@ body {
 
 .topiconlink {
   color: #00323e;
-  opacity: 80%;
+  opacity: 100%;
   display: inline-block;
   position: relative;
-  font-size: 6vw;
+  font-size: 5.5vw;
   bottom: 3vw;
   left: 15vw;
 }
 
 .topiconlink:hover {
-  opacity: 100%;
-  font-size: 6.5vw;
+  font-size: 6vw;
+  opacity: 80%;
 }
 
 .bottomnav {
@@ -56,13 +56,13 @@ body {
   color: #efefef;
   opacity: 90%;
   text-decoration: none;
-  font-size: 93%;
+  font-size: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 5vw;
   padding-bottom: 5vw;
   padding-right: 10vw;
   padding-left: 4vw;
-  margin-right: -8vw;
+  margin-right: -2vw;
 }
 
 .bottomnavlinks:hover {
