@@ -68,8 +68,8 @@ body {
   padding-bottom: 5vw;
   padding-right: 2vw;
   padding-left: 2vw;
-  margin: 0 auto;
-  word-spacing: 2vw;
+  word-spacing: 3vw;
+  margin-left: -2vw;
 }
 
 .bottomnavlinks:hover {
