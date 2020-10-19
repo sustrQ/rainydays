@@ -11,7 +11,7 @@ body {
   background-color: #e6e6e6;
   padding-bottom: 5px;
   padding-top: 10px;
-  word-spacing: 7vw;
+  word-spacing: 9vw;
 }
 
 .toppnav > img {
@@ -25,7 +25,7 @@ body {
   position: relative;
   font-size: 6vw;
   bottom: 3vw;
-  left: 23vw;
+  left: 17vw;
 }
 
 .bottomnav {
