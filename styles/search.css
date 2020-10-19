@@ -21,7 +21,7 @@ body {
 }
 
 .topnav > img {
-  width: 25vw;
+  width: 29vw;
   margin-left: 6vw;
 }
 
@@ -30,14 +30,14 @@ body {
   opacity: 80%;
   display: inline-block;
   position: relative;
-  font-size: 5vw;
+  font-size: 6vw;
   bottom: 3vw;
-  left: 18vw;
+  left: 15vw;
 }
 
 .topiconlink:hover {
   opacity: 100%;
-  font-size: 5.6vw;
+  font-size: 6.5vw;
 }
 
 .bottomnav {
@@ -60,9 +60,9 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 5vw;
   padding-bottom: 5vw;
-  padding-right: 5vw;
+  padding-right: 10vw;
   padding-left: 4vw;
-  margin-left: -3vw;
+  margin-right: -8vw;
 }
 
 .bottomnavlinks:hover {
