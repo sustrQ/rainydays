@@ -61,10 +61,10 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-top: 5vw;
   padding-bottom: 5vw;
-  padding-right: 3vw;
-  padding-left: 3vw;
-  margin-right: 3vw;
-  margin-left: -3vw;
+  padding-right: 4vw;
+  padding-left: 4vw;
+  margin-right: 2vw;
+  margin-left: -2vw;
 }
 
 .bottomnavlinks:hover {
