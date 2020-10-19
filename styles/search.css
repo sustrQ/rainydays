@@ -21,7 +21,8 @@ body {
 }
 
 .topnav > img {
-  width: 25vw;
+  margin-bottom: 0 auto;
+  width: 28vw;
   margin-left: 6vw;
 }
 
@@ -47,11 +48,15 @@ body {
   text-align: center;
   display: inline-block;
   width: 100%;
+  margin: 0 auto;
 }
 
 .bottomnav > ul li {
   list-style-type: none;
   display: inline;
+  margin: 0 auto;
+  display: inline-block;
+  justify-content: center;
 }
 
 .bottomnavlinks {
@@ -64,6 +69,8 @@ body {
   padding-bottom: 5vw;
   padding-right: 2vw;
   padding-left: 2vw;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .bottomnavlinks:hover {
