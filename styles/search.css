@@ -21,7 +21,7 @@ body {
 }
 
 .topnav > img {
-  width: 29vw;
+  width: 33vw;
   margin-left: 4vw;
 }
 
@@ -30,9 +30,9 @@ body {
   opacity: 90%;
   display: inline-block;
   position: relative;
-  font-size: 6vw;
+  font-size: 7vw;
   bottom: 3vw;
-  left: 16vw;
+  left: 11vw;
 }
 
 .topiconlink:hover {
@@ -56,7 +56,7 @@ body {
   color: #efefef;
   opacity: 80%;
   text-decoration: none;
-  font-size: 3.5vw;
+  font-size: 5vw;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-top: 5vw;
