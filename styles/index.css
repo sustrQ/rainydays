@@ -15,56 +15,18 @@ body {
 
 .toppnav > img {
   width: 25vw;
-  margin-left: 10px;
+  margin-left: 3vw;
 }
 
 .toppnav > i.fas {
   color: #063e4b;
   display: inline-block;
   position: relative;
-  font-size: 6vw;
-  left: 5vw;
+  font-size: 5vw;
+  bottom: 3vh;
+  left: 39vw;
+  padding-right: 5vw;
 }
-
-.search {
-    display: inline-block;
-    position: relative;
-    left: 6vw;
-    bottom: 2vw;
-    width: 100%;
-}
-
-.search > i.fas {
-    color: #063e4b;
-    display: inline-block;
-    position: relative;
-    top: 6px;
-    font-size: 4vw;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    left: 3px;
-    transform: rotateZ(90deg);
-}
-
-.toppnav input[type=text] {
-    width: 100%;
-    border: none;
-    font-size: 40px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-}
-
-.toppnav input[type=text]:focus {
-     display: inline-block;
-    position: relative;
-    width: 100%;
-    border: none;
-    font-size: 17px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-}
-
-
 
 /*
 .toppnav input[type=text] {
