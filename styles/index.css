@@ -30,15 +30,14 @@ body {
 
 .bottomnav {
   background-color: #144a57;
-  padding-top: 0.1px;
-  padding-bottom: 0.1px;
+  padding-top: 0.1vw;
+  padding-bottom: 0.1vw;
   text-align: center;
-  word-spacing: 7vw;
 
 }
 
 .bottomnav > ul li {
-  margin-left: -2vw;
+  padding-right: 10vw;
   display: inline;
   color: white;
   font-size: 4vw;
