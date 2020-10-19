@@ -16,7 +16,7 @@ body {
 
 .toppnav > img {
   width: 26vw;
-  margin-left: 3vw;
+  margin-left: 4vw;
 }
 
 .toppnav > i.fas {
@@ -41,6 +41,7 @@ body {
   padding-top: 0.1px;
   padding-bottom: 0.1px;
   text-align: center;
+  word-spacing: 9vw;
 
 }
 
@@ -48,9 +49,7 @@ body {
   display: inline;
   color: white;
   font-size: 4vw;
-  padding-right: 4vw;
   font-family: Arial, Helvetica, sans-serif;
-
 }
 
 @media only screen and (min-width: 800px) {
