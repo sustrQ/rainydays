@@ -66,10 +66,10 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 5vw;
   padding-bottom: 5vw;
-  padding-right: 2vw;
-  padding-left: 2vw;
-  word-spacing: 3vw;
-  margin-left: -2vw;
+  padding-right: 3vw;
+  padding-left: 3vw;
+  margin-right: 4vw;
+  margin-left: -4vw;
 }
 
 .bottomnavlinks:hover {
