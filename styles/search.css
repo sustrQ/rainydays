@@ -45,6 +45,8 @@ body {
   padding-top: 1%;
   padding-bottom: 1px;
   text-align: center;
+  display: inline-block;
+  width: 100%;
 }
 
 .bottomnav > ul li {
@@ -60,8 +62,8 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 5vw;
   padding-bottom: 5vw;
-  padding-right: 5vw;
-  padding-left: 4vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
 }
 
 .bottomnavlinks:hover {
