@@ -27,7 +27,7 @@ body {
 
 .topiconlink {
   color: #00323e;
-  opacity: 90%;
+  opacity: 80%;
   display: inline-block;
   position: relative;
   font-size: 5vw;
@@ -62,7 +62,7 @@ body {
   padding-bottom: 5vw;
   padding-right: 4vw;
   padding-left: 4vw;
-  margin-right: 3vw;
+  margin-right: 6vw;
   margin-left: -3vw;
 }
 
