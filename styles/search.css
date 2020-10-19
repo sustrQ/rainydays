@@ -56,8 +56,9 @@ body {
   color: #efefef;
   opacity: 80%;
   text-decoration: none;
-  font-size: 5vw;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3.5vw;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding-top: 5vw;
   padding-bottom: 5vw;
   padding-right: 3vw;
