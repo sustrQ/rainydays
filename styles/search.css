@@ -56,14 +56,13 @@ body {
   color: #efefef;
   opacity: 80%;
   text-decoration: none;
-  font-size: 5vw;
+  font-size: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-top: 5vw;
   padding-bottom: 5vw;
   padding-right: 4vw;
   padding-left: 4vw;
-  margin-right: 3vw;
-  margin-left: -3vw;
+  margin-right: 6vw;
 }
 
 .bottomnavlinks:hover {
