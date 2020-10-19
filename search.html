@@ -5,18 +5,35 @@
       src="https://kit.fontawesome.com/3b26841a4d.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="styles/index.css" />
-    <meta name="description" content="This is the home page" />
+    <link rel="stylesheet" href="styles/search.css" />
+    <meta name="description" content="Rainydays | Home page" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale-1.0" />
   </head>
 
   <body>
     <header>
-      <nav class="toppnav">
-        <img src="images/logo3.png" alt="Rainyday logo" />
+      <nav class="topnav">
+        <img src="images/logo.png" alt="Rainyday logo" />
+        <a href="#" class="topiconlink"><i class="fas fa-search"></i></a>
+        <a href="#" class="topiconlink"><i class="fas fa-user"></i></a>
+        <a href="#" class="topiconlink"><i class="fas fa-shopping-cart"></i></a>
       </nav>
+      <nav class="bottomnav">
+        <ul>
+          <li><a href="index.html" class="bottomnavlinks">Home</a></li>
+          <li><a href="#" class="bottomnavlinks">Shop</a></li>
+          <li><a href="#" class="bottomnavlinks">About</a></li>
+          <li><a href="#" class="bottomnavlinks">Contact</a></li>
+        </ul>
       </nav>
     </header>
+
+    <main>
+      <div class="searchbar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search.." />
+      </div>
+    </main>
   </body>
 </html>
