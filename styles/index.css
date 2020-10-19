@@ -11,10 +11,11 @@ body {
   background-color: #e6e6e6;
   padding-bottom: 5px;
   padding-top: 10px;
+  word-spacing: 5vw;
 }
 
 .toppnav > img {
-  width: 25vw;
+  width: 26vw;
   margin-left: 3vw;
 }
 
@@ -22,10 +23,9 @@ body {
   color: #063e4b;
   display: inline-block;
   position: relative;
-  font-size: 5vw;
-  bottom: 3vh;
-  left: 39vw;
-  padding-right: 5vw;
+  font-size: 6vw;
+  bottom: 3vw;
+  left: 33vw;
 }
 
 /*
