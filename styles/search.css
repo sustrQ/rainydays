@@ -6,18 +6,12 @@ body {
 
 body {
   overflow: auto;
-  background-image: url(/images/texture-background.jpg);
-  background-repeat: repeat-y;
-  background-color: #e4e4e4;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #c4c4c498;
   margin: 0;
   padding: 0;
   width: 100%;
   position: relative;
-  padding-bottom: 30vw;
+  padding-bottom: 20.5vw;
   height: 100vh;
 }
 
@@ -26,7 +20,7 @@ body {
   position: relative;
   background-image: url(/images/texture2.jpg);
   background-size: cover;
-  background-color: #e6e6e6;
+  background-color: #c9c9c9;
   padding-bottom: 5px;
   padding-top: 10px;
   word-spacing: 9vw;
@@ -61,6 +55,8 @@ body {
   display: inline-block;
   width: 100%;
   margin: 0 auto;
+  border-bottom: 0.2vw solid #ece7e7;
+  box-shadow: 0 3px 2px -2px rgba(128, 128, 128, 0.753);
 }
 
 .bottomnav > ul li {
@@ -71,8 +67,8 @@ body {
 }
 
 .bottomnavlinks {
-  color: #efefef;
-  opacity: 90%;
+  color: #e6e6e6;
+  opacity: 100%;
   text-decoration: none;
   font-size: 100%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -85,7 +81,7 @@ body {
 }
 
 .bottomnavlinks:hover {
-  opacity: 100%;
+  color: white;
   text-decoration: underline;
 }
 
@@ -104,14 +100,16 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: #063e4b;
-  color: white;
-  height: 20vw;
+  color: #e6e6e6;
+  height: 20.5vw;
   text-align: left;
+  border-top: 0.2vw solid #ece7e7;
+  box-shadow: -2px 0 3px 1px rgba(128, 128, 128, 0.753);
 }
 
 footer > img {
   float: left;
-  width: 12vw;
+  width: 16vw;
   padding-top: 3vw;
   margin-left: 5vw;
 }
@@ -119,28 +117,35 @@ footer > img {
 .footerlinks {
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color: #e6e6e6;
   text-align: left;
   list-style-type: none;
   font-size: 2.5vw;
-  margin-left: 2vw;
+  margin-left: 5vw;
+  line-height: 5vw;
 }
 
-.footericons {
-  display: inline-block;
-  list-style-type: none;
-  margin-left: 0vw;
-  font-size: 3.3vw;
-  line-height: 200%;
-  opacity: 70%;
+.footerlinks:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .footericonstext {
   display: inline-block;
   list-style-type: none;
-  margin-left: -2vw;
+  text-align: left;
+  margin-left: 13vw;
   font-size: 2vw;
-  line-height: 200%;
+  line-height: 5vw;
+}
+
+.footerbottom {
+  width: 100%;
+  text-align: center;
+  background-image: url(/images/texture-background.jpg);
+  color: #00323e;
+  padding: 0.5vw;
+  background-image: cover;
 }
 
 /*
