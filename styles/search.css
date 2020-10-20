@@ -20,7 +20,7 @@ body {
   word-spacing: 9vw;
 }
 
-.topnav > img {
+.topnav > a img {
   margin-bottom: 0 auto;
   width: 28vw;
   margin-left: 6vw;
@@ -68,7 +68,6 @@ body {
   padding-bottom: 3vw;
   padding-right: 3.7vw;
   padding-left: 3.7vw;
-  word-spacing: 40vw;
   margin-right: 4vw;
   margin-left: -3vw;
 }
@@ -76,6 +75,30 @@ body {
 .bottomnavlinks:hover {
   opacity: 100%;
   text-decoration: underline;
+}
+
+footer {
+  position: fixed;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #063e4b;
+  color: white;
+}
+
+footer > img {
+  float: left;
+  width: 17vw;
+  padding-top: 3vw;
+  margin-left: 10vw;
+}
+
+footer > ul li {
+  text-align: left;
+  list-style-type: none;
+  font-size: 2.3vw;
+  margin-left: 30vw;
 }
 
 /*
