@@ -78,7 +78,7 @@ body {
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   left: 0;
   bottom: 0;
@@ -99,7 +99,7 @@ footer > img {
   display: inline-block;
   text-decoration: none;
   color: white;
-  text-align: center;
+  text-align: left;
   list-style-type: none;
   font-size: 2.5vw;
   margin-left: 2vw;
