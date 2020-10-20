@@ -85,20 +85,41 @@ footer {
   width: 100%;
   background-color: #063e4b;
   color: white;
+  text-align: left;
 }
 
 footer > img {
   float: left;
-  width: 17vw;
+  width: 12vw;
   padding-top: 3vw;
-  margin-left: 10vw;
+  margin-left: 5vw;
 }
 
-footer > ul li {
-  text-align: left;
+.footerlinks {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
   list-style-type: none;
-  font-size: 2.3vw;
-  margin-left: 30vw;
+  font-size: 2.5vw;
+  margin-left: 2vw;
+}
+
+.footericons {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 0vw;
+  font-size: 3.3vw;
+  line-height: 200%;
+  opacity: 70%;
+}
+
+.footericonstext {
+  display: inline-block;
+  list-style-type: none;
+  margin-left: -2vw;
+  font-size: 2vw;
+  line-height: 200%;
 }
 
 /*
