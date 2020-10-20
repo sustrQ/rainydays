@@ -11,12 +11,14 @@ body {
   background-color: #e4e4e4;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   margin: 0;
   padding: 0;
   width: 100%;
   position: relative;
   padding-bottom: 20vw;
+  height: 100vh;
 }
 
 .topnav {
@@ -88,7 +90,6 @@ body {
 }
 
 main {
-  height: 70vh;
 }
 
 footer {
@@ -178,3 +179,24 @@ footer > img {
   padding-bottom: 1vw;
   width: 80vw;
 }
+
+/*desktop view*/
+/*
+body {
+  overflow: auto;
+  background-image: url(/images/texture-background.jpg);
+  background-repeat: repeat-y;
+  background-color: #e4e4e4;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  padding-bottom: 20vw;
+  height: 100vh;
+}
+
+*/
