@@ -189,7 +189,7 @@ footer > img {
 .textfrontpage {
   text-align: center;
   line-height: 2vw;
-  margin-right: 50vw;
+  margin-right: 25vw;
   margin-top: 10vw;
   color: #00323e;
 }
@@ -202,7 +202,7 @@ footer > img {
 
 .textfrontpage > h2 {
   font-family: "verdana";
-  line-height: 1vw;
+  line-height: 2vw;
   font-weight: 200;
   font: lighter;
 }
