@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/3b26841a4d.js"
       crossorigin="anonymous"
@@ -13,22 +17,44 @@
 
   <body>
     <header>
-      <nav class="toppnav">
-        <img src="images/logo.png" alt="Rainyday logo" />
+      <nav class="topnav">
+        <a href="#"><img src="images/logo.png" alt="Rainydays logo" /></a>
         <a href="search.html" class="topiconlink"
           ><i class="fas fa-search"></i
         ></a>
-        <i class="fas fa-user"></i>
-        <i class="fas fa-shopping-cart"></i>
+        <a href="#" class="topiconlink"><i class="fas fa-user"></i></a>
+        <a href="#" class="topiconlink"><i class="fas fa-shopping-cart"></i></a>
       </nav>
       <nav class="bottomnav">
         <ul>
-          <li>Home</li>
-          <li>Shop</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href="index.html" class="bottomnavlinks">Home</a></li>
+          <li><a href="#" class="bottomnavlinks">Shop</a></li>
+          <li><a href="#" class="bottomnavlinks">About</a></li>
+          <li><a href="#" class="bottomnavlinks">Contact</a></li>
         </ul>
       </nav>
     </header>
+
+    <main>
+      <div class="textfrontpage">
+        <h1>20%</h1>
+        <p>on all orders!</p>
+        <p>Lasts until November</p>
+      </div>
+    </main>
+    <footer>
+      <img src="images/logo2.png" alt="Rainydays logo" />
+      <ul class="footerlinks">
+        <li><a href="#" class="footerlinks">Shop</a></li>
+        <li><a href="#" class="footerlinks">Contact us</a></li>
+        <li><a href="#" class="footerlinks">About us</a></li>
+      </ul>
+      <ul class="footericonstext">
+        <li>Privacy policy</li>
+        <li>Terms & conditions</li>
+        <li>Shipping information</li>
+      </ul>
+      <div class="footerbottom"></div>
+    </footer>
   </body>
 </html>
