@@ -19,7 +19,8 @@ body {
   padding: 0;
   width: 100%;
   position: relative;
-  padding-bottom: 21.5vw;
+  /*padding-bottom: 21.5vw;*/
+  padding-bottom: 30vw;
   height: 100vh;
 }
 
