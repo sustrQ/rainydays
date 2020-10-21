@@ -102,12 +102,12 @@ main {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 80vh;
+  height: 100vh;
 }
 
 footer {
   overflow: hidden;
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   left: 0;
   text-align: center;
