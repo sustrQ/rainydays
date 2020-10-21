@@ -94,8 +94,8 @@ body {
 }
 
 main {
-  overflow: auto;
-  background-image: url(/images/index-picture.jpg);
+  overflow: hidden;
+  background-image: url(/images/index-picture-mobile.jpg);
   background-repeat: repeat-y;
   background-color: #e4e4e4;
   -webkit-background-size: cover;
