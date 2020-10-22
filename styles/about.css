@@ -11,7 +11,7 @@ body {
   padding: 0;
   width: 100%;
   position: relative;
-  height: 100vh;
+  height: 100%;
 }
 
 .topnav {
@@ -100,7 +100,7 @@ main {
   height: 100vw;
   background-repeat: no-repeat;
   background-position: bottom;
-  padding-bottom: 20vw;
+  padding-bottom: 40vw;
 }
 
 footer {
