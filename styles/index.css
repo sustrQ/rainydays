@@ -6,11 +6,12 @@ body {
 
 body {
   overflow: auto;
-  background-color: #c4c4c498;
+  background-color: #ffffff98;
   margin: 0;
   padding: 0;
   width: 100%;
   position: relative;
+  height: 100vw;
   height: 100vh;
 }
 
