@@ -99,6 +99,7 @@ main {
   -o-background-size: cover;
   background-size: cover;
   height: 90vh;
+  height: 90vw;
 }
 
 footer {
