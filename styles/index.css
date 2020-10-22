@@ -98,7 +98,8 @@ main {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 90vw;
+  height: 100vh;
+  height: 100vw;
 }
 
 footer {
