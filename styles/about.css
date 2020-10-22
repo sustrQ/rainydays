@@ -97,10 +97,10 @@ main {
   -moz-background-size: cover;
   -o-background-size: cover;*/
   background-size: 100vw;
-  height: 90vw;
+  height: 91vw;
   background-repeat: no-repeat;
   background-position: bottom;
-  padding-bottom: 20vw;
+  padding-bottom: 40vw;
 }
 
 footer {
