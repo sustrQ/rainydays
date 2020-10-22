@@ -96,6 +96,7 @@ main {
   /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;*/
+  background-color: white;
   background-size: 100vw;
   height: 91vw;
   background-repeat: no-repeat;
@@ -174,11 +175,11 @@ footer > img {
 }
 
 .maintext > p {
-  font-size: 2.6vw;
+  font-size: 3vw;
   margin-right: 3vw;
   margin-left: 3vw;
   font-family: verdana, Geneva, Tahoma, sans-serif;
-  line-height: 3.5vw;
+  line-height: 5vw;
 }
 
 .maintext > h2 {
