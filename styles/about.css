@@ -127,6 +127,7 @@ footer > img {
   margin-left: 5vw;
 }
 
+
 .footerlinks {
   display: inline-block;
   text-decoration: none;
@@ -147,22 +148,24 @@ footer > img {
   display: inline-block;
   list-style-type: none;
   text-align: left;
-  margin-left: 10vw;
-  font-size: 2.5vw;
+  margin-left: 0vh;
+  font-size: 3vw;
   line-height: 5vw;
 }
 
 .fa-envelope {
   background-color: #e6e6e6;
   padding: 3.5vw;
-  font-size: 5vw;
+  font-size: 7vw;
   border-radius: 50%;
   color: #063e4b;
   position: fixed;
   display: inline-block;
   right: 1vw;
-  bottom: 10vw;
+  bottom: 15vw;
+  text-decoration: none;
 }
+
 
 /**************** ABOUT *************/
 
