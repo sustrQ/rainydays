@@ -149,6 +149,10 @@ footer > img {
   line-height: 5vw;
 }
 
+.faenvelope {
+
+}
+
 .fa-envelope {
   background-color: #e6e6e6;
   padding: 3.5vw;
@@ -160,7 +164,6 @@ footer > img {
   right: 1vw;
   bottom: 15vw;
   text-decoration: none;
-  line-height: 100%;
 }
 
 
