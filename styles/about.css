@@ -80,7 +80,7 @@ body {
 }
 
 .bottomnavlinks:hover {
-  color: white;
+  color:  #ffffff;
   text-decoration: underline;
 }
 
@@ -93,15 +93,12 @@ main {
   overflow: hidden;
   background-image: url(/images/about-mobile.jpg);
   background-repeat: no-repeat;
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;*/
   background-color: white;
   background-size: 100vw;
   height: 91vw;
   background-repeat: no-repeat;
   background-position: bottom;
-  padding-bottom: 39vw;
+  padding-bottom: 50vw;
 }
 
 footer {
@@ -155,6 +152,17 @@ footer > img {
   line-height: 5vw;
 }
 
+.fa-envelope {
+  background-color: #e6e6e6;
+  padding: 3.5vw;
+  font-size: 5vw;
+  border-radius: 50%;
+  color: #063e4b;
+  position: fixed;
+  display: inline-block;
+  right: 1vw;
+  bottom: 10vw;
+}
 
 /**************** ABOUT *************/
 
@@ -164,14 +172,14 @@ footer > img {
   background-color: rgba(255, 255, 255, 0.568);
   padding-bottom: 0.1vw;
   padding-top: 3vw;
-  
 }
 
 .maintext > h1 {
   text-align: center;
-  font-size: 5vw;
+  font-size: 7vw;
   font-family: "roboto slab", 'Courier New', Courier, monospace;
   font-weight: 100;
+  color: #00323ed3;
 }
 
 .maintext > p {
@@ -180,13 +188,15 @@ footer > img {
   margin-left: 3vw;
   font-family: verdana, Geneva, Tahoma, sans-serif;
   line-height: 5vw;
+  color: #00323E;
 }
 
 .maintext > h2 {
+  color: #00323ed3;
   text-align: center;
   font-size: 3.5vw;
-  font-family: "roboto slab", 'Courier New', Courier, monospace;
   font-weight: 100;
+  font-family: "roboto slab", 'Courier New', Courier, monospace;
   margin-top: 5vw;
 }
 
