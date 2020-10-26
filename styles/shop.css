@@ -186,9 +186,16 @@ color: #00323ed3;
   margin-top: 0;
   text-align: center;
   font-size: 3vh;
-  font-size: 3.5vw;
   font-family: verdana, Geneva, Tahoma, sans-serif;
   line-height: 3.5vw;
+}
+
+@media screen and (orientation:landscape)
+and (min-device-width: 319px) 
+and (max-device-width: 480px) {
+   .maintext > p {
+     font-size: 5vw;
+   }
 }
 
 
