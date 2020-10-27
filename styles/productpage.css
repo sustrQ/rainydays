@@ -91,14 +91,11 @@ body {
 
 main {
   overflow: hidden;
-  background-image: url(/images/about-mobile.jpg);
-  background-repeat: no-repeat;
-  background-color: white;
+  background-color:  #ffffff;
   background-size: 100vw;
-  height: 91vw;
-  background-repeat: no-repeat;
+  height: 100vw;
   background-position: bottom;
-  padding-bottom: 50vw;
+  padding-bottom: 250%;
 }
 
 footer {
@@ -126,7 +123,6 @@ footer > img {
   padding-top: 3vw;
   margin-left: 5vw;
 }
-
 
 .footerlinks {
   display: inline-block;
@@ -167,47 +163,160 @@ footer > img {
 }
 
 
-/**************** ABOUT *************/
+/**************** SHOP *************/
+
+/********* product ******/
+
+.imagebox {
+  background: #e1e1e1;
+  width: 100%;
+}
+
+.imagebox > img {
+  width: 70vw;
+  display: block;
+  margin: 0 auto; 
+}
+
+.imagepicker {
+  list-style-type:none;
+  float: left;
+  margin-left: -8vw;
+}
+
+.imagepicker li img:hover {
+  opacity: 70%;
+}
+
+.imagepicker li {
+  float: left;
+  list-style-type:none;
+}
+
+.imagepicker li img {
+  width: 20vw;
+  height: auto;
+  cursor: pointer;
+  margin: 1vw;
+}
+
+
+
+/********* text ******/
+
+.margin {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
 
 .maintext {
-  margin-left: 10vw;
-  margin-right: 10vw;
-  background-color: rgba(255, 255, 255, 0.568);
-  padding-bottom: 0.1vw;
-  padding-top: 3vw;
+  display: inline-block;
+  color: #536b70;
+  padding-bottom: 2vw;
+  padding-top: 2vw;
 }
 
 .maintext > h1 {
-  text-align: center;
-  font-size: 13vw;
+  font-size: 12vw;
+  margin-top: 0;
+  margin-bottom: 0;
   font-family: "roboto slab", 'Courier New', Courier, monospace;
-  font-weight: lighter;
   color: #00323ed3;
-  letter-spacing: 2vw;
-  margin-bottom: 2vw;
-}
-
-.maintext > p {
-  font-size: 3vw;
-  margin-right: 3vw;
-  margin-left: 3vw;
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  line-height: 5vw;
-  color: #00323E;
+  font-weight: lighter;
 }
 
 .maintext > h2 {
-  color: #00323ed3;
-  text-align: center;
-  font-size: 3.5vw;
-  font-weight: 100;
-  font-family: "roboto slab", 'Courier New', Courier, monospace;
-  margin-top: 5vw;
+  margin-top: 0;
+  font-size: 6vw;
+  color: #C34F4F;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 
+.linetext {
+  text-decoration: line-through;
+  color: #777777;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  font-weight: lighter;
+}
+
+.maintext > p {
+  color: #00323E;
+  margin-top: 0;
+  font-size: 5vw;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
+  line-height: 7vw;
+  margin-top: 5vw;
+  margin-bottom: 16vw;
+}
+
+/**size */
 
 
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  font-size: 6vw;
+  color: #00323ee0;
+  padding: 2vw;
+  background-color:  #ffffff;
+  border-radius: 0%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}
 
+.fa-sort-down {
+margin-left: -10vw;
+  font-size: 9vw;
+  display: inline-block;
+  color: #00323E;
+}
+
+/*** button ********/
+
+.button {
+  background-color:#00323E;
+  color: #e6e6e6;
+  font-family: "roboto slab", 'Courier New', Courier, monospace;
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  font-size: 7vw;
+  margin-top: 5vw;
+  width: 100%;
+  margin-bottom: 10vw;
+}
+
+.button:hover {
+  opacity: 60%;
+  letter-spacing: 1vw;
+  font-size: 8vw;
+  font-weight: bold;
+}
+
+.underbuttontext {
+  width: 100%;
+  text-align: center;
+  font-size: 5vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.underbuttontext > p {
+  margin-left: 1.7vw;
+  margin-right: 1.7vw;
+  color: #00323e77;
+}
+
+.green {
+  color: #8EBC71;
+  background-color: #8b8b8b77;
+  border-radius: 50%;
+  padding-left: 1.5vw;
+  padding-right: 5vw;
+  margin-left: 5vw;
+}
 
 /***** DESKTOP *******
 
