@@ -245,7 +245,7 @@ footer > img {
   color: #00323E;
   margin-top: 0;
   font-size: 5vw;
-  font-family: verdana, Geneva, Tahoma, sans-serif;
+  font-family: verdana, arial, Geneva, Tahoma, sans-serif;
   line-height: 7vw;
   margin-top: 5vw;
   margin-bottom: 16vw;
@@ -263,8 +263,8 @@ select {
   padding: 2vw;
   background-color:  #ffffff;
   border-radius: 0%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: lighter;
+  font-family: Verdana, arial, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1vw;
 }
 
 .fa-sort-down {
@@ -292,7 +292,6 @@ margin-left: -10vw;
 .button:hover {
   opacity: 60%;
   letter-spacing: 1vw;
-  font-size: 8vw;
   font-weight: bold;
 }
 
@@ -313,8 +312,10 @@ margin-left: -10vw;
   color: #8EBC71;
   background-color: #8b8b8b77;
   border-radius: 50%;
-  padding-left: 1.5vw;
-  padding-right: 5vw;
+  padding-left: 2vw;
+  padding-right: 1.5vw;
+  padding-top: 1.5vw;
+  font-size: 1.5vw;
   margin-left: 5vw;
 }
 
