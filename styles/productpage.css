@@ -170,18 +170,22 @@ footer > img {
 .imagebox {
   background: #e1e1e1;
   width: 100%;
+  margin-bottom: 0;
 }
 
 .imagebox > img {
   width: 70vw;
   display: block;
   margin: 0 auto; 
+  margin-bottom: 2vw;
 }
 
 .imagepicker {
+  margin-top: 0;
   list-style-type:none;
   float: left;
-  margin-left: -10vw;
+  border-bottom: #063e4b;
+  width: 100%;
 }
 
 .imagepicker li img:hover {
@@ -191,6 +195,8 @@ footer > img {
 .imagepicker li {
   float: left;
   list-style-type:none;
+  margin-left: 0;
+  margin-right: 9vw;
 }
 
 .imagepicker li img {
@@ -198,6 +204,7 @@ footer > img {
   height: auto;
   cursor: pointer;
   margin: 1vw;
+  border-radius: 5%;
 }
 
 
