@@ -195,8 +195,8 @@ footer > img {
 .imagepicker li {
   float: left;
   list-style-type:none;
-  margin-left: 0;
-  margin-right: 9vw;
+  margin-left: -3vw;
+  margin-right: 5vw;
 }
 
 .imagepicker li img {
