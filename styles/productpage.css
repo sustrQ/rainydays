@@ -181,7 +181,7 @@ footer > img {
 .imagepicker {
   list-style-type:none;
   float: left;
-  margin-left: -8vw;
+  margin-left: -10vw;
 }
 
 .imagepicker li img:hover {
