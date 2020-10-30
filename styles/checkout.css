@@ -391,6 +391,14 @@ label {
   font-family: "roboto slab";
 }
 
+.group > label {
+  width: 40vw;
+  position: relative;
+  left: 23vw;
+  display: inline-block;
+  margin-left: -10vw;
+}
+
 input[type="text"] {
   font-size: 3vw;
   padding-top: 4vw;
@@ -399,6 +407,7 @@ input[type="text"] {
 .group {
   display: flex;
   margin-bottom: 1vw;
+  margin-left: -10vw;
 }
 
 .small {
@@ -415,6 +424,11 @@ input[type="text"] {
   width: 35vw;
   float: right;
   margin-right: 2vw;
+}
+
+.bigger > label {
+  position: relative;
+  left: 2vw;
 }
 
 /* payment */
