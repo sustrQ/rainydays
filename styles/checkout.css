@@ -371,7 +371,6 @@ legend {
 input {
   width: 70vw;
   margin-left: -19vw;
-  vertical-align: top;
   display: inline-block;
   height: 7vw;
   background-color: #f3f3f3;
@@ -380,13 +379,13 @@ input {
 
 label {
   display: inline-block;
-  height: 10vw;
+  height: 7vw;
   line-height: 10vw;
   position: relative;
   margin: 0 auto;
   font-size: 2.5vw;
   bottom: 3vw;
-  margin-left: 0.5vw;
+  margin-left: 0vw;
   color: #00323e;
   font-family: "roboto slab";
 }
