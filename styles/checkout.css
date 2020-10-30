@@ -379,7 +379,7 @@ input {
 }
 
 label {
-  display: block;
+  display: inline-block;
   height: 7vw;
   line-height: 10vw;
   position: relative;
@@ -458,7 +458,7 @@ input[type="radio"] {
   float: left;
   left: 20vw;
   position: relative;
-  top: 1.5vw;
+  top: 0.5vw;
   cursor: pointer;
 }
 
