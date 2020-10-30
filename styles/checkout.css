@@ -348,7 +348,7 @@ fieldset {
   margin: 0 auto;
   background-color: #ffffff;
   border: 0.1vw solid #cfcfcf;
-  padding-left: 1.5vw;
+  padding-left: 0.5vw;
   padding-right: 1vw;
   margin-bottom: 9vw;
 }
@@ -438,9 +438,10 @@ input[type="text"] {
   margin: 0 auto;
   width: 70.5vw;
   border: 0.1vw solid #cfcfcf;
-  padding-left: 1.5vw;
+  padding-left: 0.7vw;
   padding-right: 1vw;
   margin-bottom: 9vw;
+  padding-bottom: -10vw !important;
 }
 
 .wrapper > h2 {
