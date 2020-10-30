@@ -449,6 +449,7 @@ input[type="text"] {
   position: relative;
   border-bottom: 0.2vw solid #ece7e7;
   background-color: #eeeeee;
+  padding-bottom: 3vw;
   font-size: 3vw;
   margin-bottom: 2vw;
 }
@@ -458,7 +459,7 @@ input[type="radio"] {
   float: left;
   left: 20vw;
   position: relative;
-  top: 0.5vw;
+  top: vw;
   cursor: pointer;
 }
 
@@ -470,6 +471,7 @@ input[type="radio"] {
   background-color: #eeeeee;
   font-size: 2.7vw;
   margin-bottom: 2vw;
+  padding-bottom: 3vw;
 }
 
 /* order summary */
