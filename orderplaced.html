@@ -13,6 +13,14 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/3b26841a4d.js"
       crossorigin="anonymous"
@@ -21,8 +29,8 @@
       src="https://kit.fontawesome.com/3b26841a4d.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="styles/contact.css" />
-    <meta name="description" content="Rainydays | Shop" />
+    <link rel="stylesheet" href="styles/orderplaced.css" />
+    <meta name="description" content="Rainydays | Order placed" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale-1.0" />
   </head>
@@ -37,7 +45,11 @@
           ><i class="fas fa-search"></i
         ></a>
         <a href="login.html" class="topiconlink"><i class="fas fa-user"></i></a>
-        <a href="emptycart.html" class="topiconlink"><i class="fas fa-shopping-cart"></i></a>
+        <a href="#" class="topiconlink">
+          <span class="fa-stack fa-2x">
+            <i class="fas fa-shopping-cart fa-stack-2x"></i>
+            <i class="fas fa-check fa-stack-1x fa-inverse"></i> </span
+        ></a>
       </nav>
       <nav class="bottomnav">
         <ul>
@@ -46,52 +58,54 @@
             <a href="shop.html" class="bottomnavlinks">Shop</a>
           </li>
           <li><a href="about.html" class="bottomnavlinks">About</a></li>
-          <li><a href="contact.html" class="bottomnavlinks activebottomnav">Contact</a></li>
+          <li><a href="contact.html" class="bottomnavlinks">Contact</a></li>
         </ul>
       </nav>
     </header>
     <a href="#" class="faenvelope"><i class="far fa-envelope"></i></a>
     <main>
+      <div class="breadcrumbs">
+        <a href="shoppingbag.html" class="breadcrumbs">
+          <p class="after">Shopping bag</p></a
+        >
+        <p class="after">Checkout</p>
+        <p class="active">Order confirmation</p>
+      </div>
+
       <div class="maintext">
-        <h1>Contact</h1>
-        <p>To contact us, please choose preferred contact method,
-          and we will get right back at you.
-        </p>
+        <h1>Order received!</h1>
+        <p>We have sent an order confirmation.</p>
+        <p>Estimated delivery is 2-4 days.</p>
       </div>
 
-      <fieldset>
-        <legend><p>Contact form</p></legend>
-        <div class="group">
-          <label>Name</label>
-          <input type="text" name="firstname" />
-        </div>
+   
+      <div class="ordersummary">
+        <h2>Order summary</h2>
+        <div class="box">
+        <p>
+          <span class="bold">Product:</span> Rainjacket<span class="italic">
+            (M, Blue)</span
+          >
+        </p></div>
 
-        <div class="group">
-          <label>How can we reach you?</label>
-          <input type="text" name="e-mail" placeholder="(E-mail or phonenumber)" />
-        </div>
+        <div class="box">
+        <p><span class="bold">Item:</span> 1</p></div>
 
+        <div class=box>
+        <p><span class="bold">Payment method:</span> Credit card</p></div>
 
-        <div class="group">
-          <label>Your message</label>
-          <input type="textarea" name="deliveryadress" />
-        </div>
-
-        <a href="#" class="buttonlink"
-        ><div class="button">Send</div></a
-      >
-      </fieldset>
-
-      <div class="contact">
-        <h2>You can also contact us here:</h2>
-        <p><span class="bold">E-mail:</span> Lorem ipsum dolor sit amet</p>
-        <p><span class="bold">Phone number:</span> Lorem ipsum dolor sit amet</p>
+        <div class="box">
+        <p>
+          <span class="bold">Delivery:</span> Home delivery<span class="italic">
+            (2-4 days)</span
+          >
+        </p></div>
+        <p class="total bold">Total: <span class="total2">319 kr</span></p>
       </div>
+  </div>
 
-      <div class="adress">
-        <p><span class="bold">Adress:</span> Lorem ipsum dolor sit amet</p>
-      </div>
-      </div>
+
+
     </main>
     <footer>
       <img src="images/logo2.png" alt="Rainydays logo" />

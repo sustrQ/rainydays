@@ -46,6 +46,32 @@ body {
   opacity: 80%;
 }
 
+/*       */
+
+.fa-stack {
+  opacity: 100%;
+  display: inline-block;
+  position: relative;
+  font-size: 3.5vw;
+  left: -1vw;
+}
+
+.fa-shopping-cart {
+  font-size: 5.5vw;
+  color: #00323e;
+  text-shadow: -1px 0 rgb(255, 255, 255), 0 2px rgb(255, 255, 255),
+    1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
+
+.fa-check {
+  font-size: 3.2vw;
+  color: #ffffff;
+  bottom: 1.5vw;
+  left: 0.6vw;
+}
+
+/*       */
+
 .bottomnav {
   background-color: #063e4b;
   padding-top: 1%;
@@ -95,7 +121,7 @@ main {
   background-size: 100vw;
   height: 100vw;
   background-position: bottom;
-  padding-bottom: 190%;
+  padding-bottom: 250%;
 }
 
 footer {
@@ -162,8 +188,36 @@ footer > img {
   text-decoration: none;
 }
 
-/**************** CONTACT *************/
+/**************** SHOP *************/
 
+.breadcrumbs {
+  margin: auto 0;
+  text-align: center;
+  font-family: "roboto";
+  font-weight: 100;
+  font-size: 2.5vw;
+  margin-top: 6vw;
+  margin-bottom: 0;
+  color: #818181;
+}
+
+.after::after {
+  content: ">";
+  margin: 5vw;
+}
+
+.active {
+  opacity: 100%;
+  color: #00323e;
+  font-weight: bold;
+}
+
+.breadcrumbs > p {
+  display: inline;
+  text-align: center;
+}
+
+/*     TEXT ***/
 .maintext {
   color: #536b70;
   padding-bottom: 2vw;
@@ -171,104 +225,96 @@ footer > img {
 }
 
 .maintext > h1 {
-  letter-spacing: 2vw;
   color: #00323ed3;
   text-align: center;
-  font-size: 13vw;
+  font-size: 7vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
   font-family: "roboto slab", "Courier New", Courier, monospace;
   font-weight: lighter;
+  margin-bottom: 10vw;
+}
+
+/*** bag ****/
+
+.shoppingbag {
+  border: 0.1vw solid #000000;
   margin-bottom: 2vw;
 }
+.row1 > img {
+  display: inline-block;
+  width: 29.1vw;
+  float: left;
+  background-color: #e0e0e0;
+}
 
-.maintext > p {
+.row2 {
+  margin-left: 50vw;
   color: #00323e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 0;
-  text-align: left;
-  font-size: 5vw;
-  font-family: verdana, Geneva, Tahoma, sans-serif;
-  line-height: 6vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
 }
 
-/** FORM 0 */
-
-fieldset {
-  width: 80vw;
-  margin: 0 auto;
-  background-color: #ffffff;
-  border: 0.1vw solid #cfcfcf;
-  padding-left: 1.5vw;
-  padding-right: 1vw;
-  padding-bottom: -10vw;
-  margin-bottom: 15vw;
-  margin-top: 10vw;
-}
-
-legend > p {
-  font-family: "roboto slab";
-  color: #3f6168;
-  text-align: center;
-  font-size: 5vw;
-  position: relative;
-  font-weight: lighter;
-  background: linear-gradient(10deg, rgba(255, 255, 255, 255) 2%, #ffffff 2%);
-}
-
-legend {
-  margin: 0 auto;
-  margin-bottom: 3vw;
-}
-
-input {
-  width: 80vw;
-  margin-left: -100vw;
-  vertical-align: top;
-  display: inline-block;
-  height: 7vw;
-  background-color: #f3f3f3;
-  border: 0.1vw solid #d3d3d3;
-}
-
-label {
-  display: inline-block;
-  height: 10vw;
-  line-height: 10vw;
-  position: relative;
-  margin: 0 auto;
-  font-size: 2.5vw;
-  bottom: 3vw;
-  margin-left: 1vw;
-  margin-top: 1vw;
-  width: 30vw;
+.row2 > h2 {
+  font-size: 7vw;
   color: #00323e;
-  font-family: "roboto slab";
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  font-weight: lighter;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-input[type="text"] {
-  padding-top: 4vw;
+.row2 > p {
   font-size: 3.5vw;
 }
 
-input[type="text"]::placeholder {
-  font-size: 2.5vw;
-  padding-top: 2vw;
-  padding-left: 2vw;
-  font-style: italic;
+.bold {
+  font-weight: bold;
 }
 
-.group {
-  display: flex;
-  margin-bottom: 1vw;
+.after2 {
+  content: "/";
 }
 
-input[type="textarea"] {
-  padding-bottom: 25vw;
-  padding-top: 5vw;
+.inline {
+  display: inline-block;
+  padding-inline-end: 4vw;
+}
+
+.price {
   font-size: 3.5vw;
+  color: #c34f4f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 
-/*****/
+.linetext {
+  text-decoration: line-through;
+  color: #777777;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  font-weight: lighter;
+}
+
+/* qty */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 10vw;
+  font-size: 3vw;
+  color: #00323ee0;
+  padding: 2vw;
+  background-color: #ffffff;
+  border-radius: 0%;
+  font-family: Verdana, arial, Geneva, Tahoma, sans-serif;
+}
+
+.fa-sort-down {
+  margin-left: -5vw;
+  font-size: 5vw;
+  display: inline-block;
+  color: #00323e;
+}
 
 .buttonlink {
   text-decoration: none;
@@ -280,14 +326,11 @@ input[type="textarea"] {
   text-align: center;
   padding-top: 2vw;
   padding-bottom: 2vw;
-  font-size: 3.5vw;
-  position: relative;
-  bottom: 13.5vw;
-  left: 27.2vw;
-  width: 25vw;
+  font-size: 7vw;
+  margin-top: 30vw;
+  width: 90%;
+  margin-bottom: 10vw;
   margin: 0 auto;
-  margin-top: 5vw;
-  margin-bottom: -13vw;
 }
 
 .button:hover {
@@ -295,36 +338,42 @@ input[type="textarea"] {
   letter-spacing: 1vw;
 }
 
-/* contact */
+/* order summary */
 
-.contact {
-  margin-top: 20vw;
-  margin: 0 auto;
+.ordersummary {
+  margin-top: 10vw;
+  margin-left: 55vw;
+  background-color: #ffffff;
+  width: 36vw;
+  border: 0.1vw solid #cfcfcf;
+  padding-left: 1.5vw;
+  padding-right: 1vw;
+  margin-bottom: 9vw;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  margin-bottom: 25vw;
 }
 
-.contact > h2 {
-  font-family: "roboto slab";
-  font-weight: lighter;
-  font-size: 5vw;
+.box > p {
+  margin-left: 2vw;
+  font-size: 3vw;
+  opacity: 100%;
 }
 
-.contact > p {
+.box {
+  border-bottom: 0.2vw solid #ece7e7;
+  margin-top: 5vw;
+}
+
+.total {
+  color: #063e4b;
+  margin-left: 2vw;
+  margin-top: 3vw;
   font-size: 3.5vw;
 }
 
-.bold {
-  font-weight: bolder;
+.total2 {
+  font-weight: normal;
 }
 
-.adress {
-  margin-top: 20vw;
-  margin: 0 auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  font-size: 3.5vw;
+.italic {
+  font-style: italic;
 }

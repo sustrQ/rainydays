@@ -46,6 +46,34 @@ body {
   opacity: 80%;
 }
 
+  
+  /*       */
+  
+  .fa-stack {
+    opacity: 100%;
+    display: inline-block;
+    position: relative;
+    font-size: 3.5vw;
+    left: -1vw;
+  }
+  
+  .fa-shopping-cart {
+    font-size: 5.5vw;
+    color: #00323e;
+    text-shadow:  -1px 0 rgb(255, 255, 255), 0 2px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+    
+  }
+  
+  .fa-check {
+    font-size: 3.2vw;
+    color: #ffffff;
+    bottom: 1.5vw;
+    left: 0.6vw;
+  }
+
+
+
+
 .bottomnav {
   background-color: #063e4b;
   padding-top: 1%;
@@ -288,8 +316,8 @@ margin-left: -10vw;
 }
 
 .button {
-  background-color:#00323E;
-  color: #e6e6e6;
+  background-color:#c7c7c7;
+  color: #00323e;
   font-family: "roboto slab", 'Courier New', Courier, monospace;
   text-align: center;
   padding-top: 2vw;
