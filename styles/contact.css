@@ -195,6 +195,218 @@ footer > img {
 /** FORM 0 */
 
 fieldset {
+  width: 70vw;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 0.1vw solid #cfcfcf;
+  padding-left: 0.5vw;
+  padding-right: 1vw;
+  margin-bottom: 9vw;
+}
+
+legend > p {
+  font-family: "roboto slab";
+  color: #3f6168;
+  text-align: center;
+  font-size: 3.5vw;
+  position: relative;
+  font-weight: lighter;
+  background: linear-gradient(10deg, rgba(255, 255, 255, 255) 2%, #ffffff 2%);
+}
+
+legend {
+  margin: 0 auto;
+  margin-bottom: 3vw;
+}
+
+input {
+  width: 70vw;
+  margin-left: -19vw;
+  vertical-align: top;
+  display: inline-block;
+  height: 7vw;
+  background-color: #f3f3f3;
+  border: 0.1vw solid #d3d3d3;
+}
+
+label {
+  display: inline-block;
+  height: 7vw;
+  line-height: 10vw;
+  position: relative;
+  margin: 0 auto;
+  font-size: 2.5vw;
+  bottom: 3vw;
+  margin-left: 0.5vw;
+  color: #00323e;
+  font-family: "roboto slab";
+}
+
+.group > label {
+  width: 40vw;
+  position: relative;
+  left: 23vw;
+  display: inline-block;
+  margin-left: -10vw;
+}
+
+input[type="text"] {
+  font-size: 3vw;
+  padding-top: 4vw;
+}
+
+.group {
+  display: flex;
+  margin-bottom: 1vw;
+  margin-left: -10vw;
+}
+
+.small {
+  display: inline-block;
+  width: 33vw;
+  float: right;
+}
+
+.small > input .bigger {
+  width: 6vw;
+}
+
+.bigger > input {
+  width: 35vw;
+  float: right;
+  margin-right: 2vw;
+}
+
+.bigger > label {
+  position: relative;
+  left: 2vw;
+}
+
+/* payment */
+
+.wrapper {
+  background-color: #ffffff;
+  margin: 0 auto;
+  width: 70.5vw;
+  border: 0.1vw solid #cfcfcf;
+  padding-left: 0.7vw;
+  padding-right: 1vw;
+  margin-bottom: 9vw;
+  padding-bottom: -10vw !important;
+}
+
+.wrapper > h2 {
+  top: 15vw;
+  text-align: center;
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  font-weight: lighter;
+  font-size: 3.5vw;
+  color: #3f6168;
+  margin-bottom: 6.5vw;
+  margin-top: -2vw;
+  background: linear-gradient(10deg, rgba(255, 255, 255, 255) 2%, #ffffff 2%);
+  width: 30vw;
+  margin-left: 15vw;
+}
+
+.container {
+  display: block;
+  color: #536b70;
+  position: relative;
+  border-bottom: 0.2vw solid #ece7e7;
+  background-color: #eeeeee;
+  padding-bottom: 3vw;
+  font-size: 3vw;
+  margin-bottom: 2vw;
+}
+
+input[type="radio"] {
+  transform: scale(1);
+  float: left;
+  left: 20vw;
+  position: relative;
+  top: vw;
+  cursor: pointer;
+}
+
+.containersmall {
+  display: block;
+  color: #536b70;
+  position: relative;
+  border-bottom: 0.2vw solid #ece7e7;
+  background-color: #eeeeee;
+  font-size: 2.7vw;
+  margin-bottom: 2vw;
+  padding-bottom: 3vw;
+}
+
+/* order summary */
+
+.ordersummary {
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 70vw;
+  border: 0.1vw solid #cfcfcf;
+  padding-left: 1.5vw;
+  padding-right: 1vw;
+  margin-bottom: 9vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ordersummary > h2 {
+  top: 15vw;
+  text-align: center;
+  font-family: "roboto slab", "Courier New", Courier, monospace;
+  font-weight: lighter;
+  font-size: 3.5vw;
+  color: #3f6168;
+  margin-bottom: 6.5vw;
+  margin-top: -2vw;
+  background: linear-gradient(10deg, rgba(255, 255, 255, 255) 2%, #ffffff 2%);
+  width: 30vw;
+  margin-left: 15vw;
+}
+
+.box > p {
+  margin-left: 2vw;
+  font-size: 3vw;
+}
+
+.box {
+  border-bottom: 0.2vw solid #ece7e7;
+  margin-top: 5vw;
+}
+
+.total {
+  margin-left: 2vw;
+  margin-top: 3vw;
+  font-size: 3.5vw;
+}
+
+.total2 {
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+input[type="textarea"] {
+  padding-bottom: 25vw;
+  padding-top: 5vw;
+  font-size: 3.5vw;
+}
+
+input[type="text"]::placeholder {
+  font-size: 2.5vw;
+  padding-top: 2vw;
+  padding-left: 2vw;
+  font-style: italic;
+}
+
+/** FORM 0 *
+
+fieldset {
   width: 80vw;
   margin: 0 auto;
   background-color: #ffffff;
@@ -263,11 +475,7 @@ input[type="text"]::placeholder {
   margin-bottom: 1vw;
 }
 
-input[type="textarea"] {
-  padding-bottom: 25vw;
-  padding-top: 5vw;
-  font-size: 3.5vw;
-}
+
 
 /*****/
 
