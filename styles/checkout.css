@@ -371,6 +371,7 @@ legend {
 input {
   width: 70vw;
   margin-left: -19vw;
+  vertical-align: top;
   display: inline-block;
   height: 7vw;
   background-color: #f3f3f3;
