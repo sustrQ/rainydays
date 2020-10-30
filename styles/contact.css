@@ -404,79 +404,6 @@ input[type="text"]::placeholder {
   font-style: italic;
 }
 
-/** FORM 0 *
-
-fieldset {
-  width: 80vw;
-  margin: 0 auto;
-  background-color: #ffffff;
-  border: 0.1vw solid #cfcfcf;
-  padding-left: 1.5vw;
-  padding-right: 1vw;
-  padding-bottom: -10vw;
-  margin-bottom: 15vw;
-  margin-top: 10vw;
-}
-
-legend > p {
-  font-family: "roboto slab", "Courier New", Courier, monospace;
-  color: #3f6168;
-  text-align: center;
-  font-size: 5vw;
-  position: relative;
-  font-weight: lighter;
-  background: linear-gradient(10deg, rgba(255, 255, 255, 255) 2%, #ffffff 2%);
-}
-
-legend {
-  margin: 0 auto;
-  margin-bottom: 3vw;
-}
-
-input {
-  width: 80vw;
-  margin-left: -100vw;
-  vertical-align: top;
-  display: inline-block;
-  height: 7vw;
-  background-color: #f3f3f3;
-  border: 0.1vw solid #d3d3d3;
-}
-
-label {
-  display: inline-block;
-  height: 10vw;
-  line-height: 10vw;
-  position: relative;
-  margin: 0 auto;
-  font-size: 2.5vw;
-  bottom: 3vw;
-  margin-left: 1vw;
-  margin-top: 1vw;
-  width: 30vw;
-  color: #00323e;
-  font-family: "roboto slab", "Courier New", Courier, monospace;
-}
-
-input[type="text"] {
-  padding-top: 4vw;
-  font-size: 3.5vw;
-}
-
-input[type="text"]::placeholder {
-  font-size: 2.5vw;
-  padding-top: 2vw;
-  padding-left: 2vw;
-  font-style: italic;
-}
-
-.group {
-  display: flex;
-  margin-bottom: 1vw;
-}
-
-
-
 /*****/
 
 .buttonlink {
@@ -492,7 +419,7 @@ input[type="text"]::placeholder {
   font-size: 3.5vw;
   position: relative;
   bottom: 13.5vw;
-  left: 27.2vw;
+  left: 23.1vw;
   width: 25vw;
   margin: 0 auto;
   margin-top: 5vw;
