@@ -185,7 +185,7 @@ footer > img {
   color: #00323e;
   margin-top: 0;
   text-align: left;
-  font-size: 5vw;
+  font-size: 3.5vw;
   font-family: verdana, Geneva, Tahoma, sans-serif;
   line-height: 6vw;
   margin-left: 10vw;
@@ -419,8 +419,8 @@ input[type="text"]::placeholder {
   font-size: 3.5vw;
   position: relative;
   bottom: 13.5vw;
-  left: 10vw;
-  width: 10vw;
+  left: 23.1vw;
+  width: 25vw;
   margin: 0 auto;
   margin-top: 5vw;
   margin-bottom: -13vw;
