@@ -2,6 +2,7 @@
 html,
 body {
   position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -280,7 +281,7 @@ footer > img {
   color: #00323E;
   margin-top: 0;
   font-size: 5vw;
-  font-family: verdana, arial, Geneva, Tahoma, sans-serif;
+  font-family: verdana, Geneva, Tahoma, sans-serif;
   line-height: 7vw;
   margin-top: 5vw;
   margin-bottom: 16vw;
@@ -298,7 +299,7 @@ select {
   padding: 2vw;
   background-color:  #ffffff;
   border-radius: 0%;
-  font-family: Verdana, arial, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 1vw;
 }
 

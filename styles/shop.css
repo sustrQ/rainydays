@@ -2,6 +2,7 @@
 html,
 body {
   position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -212,7 +213,7 @@ color: #00323ed3;
   font-size: 5vw;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "roboto slab";
+  font-family: "roboto slab", 'Courier New', Courier, monospace;
   color: #00323E;
   font-weight: lighter;
 }

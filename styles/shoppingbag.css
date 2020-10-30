@@ -2,6 +2,7 @@
 html,
 body {
   position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -193,7 +194,7 @@ footer > img {
 .breadcrumbs {
   margin: auto 0;
   text-align: center;
-  font-family: "roboto";
+  font-family: "roboto", "Courier New", Courier, monospace;
   font-weight: 100;
   font-size: 2.5vw;
   margin-top: 6vw;
@@ -341,9 +342,9 @@ select {
 
 .ordersummary {
   margin-top: 10vw;
-  margin-left: 55vw;
+  margin-left: 50vw;
   background-color: #ffffff;
-  width: 36vw;
+  width: 50vw;
   border: 0.1vw solid #cfcfcf;
   padding-left: 1.5vw;
   padding-right: 1vw;
@@ -366,7 +367,7 @@ select {
   color: #063e4b;
   margin-left: 2vw;
   margin-top: 3vw;
-  font-size: 3.5vw;
+  font-size: 5vw;
 }
 
 .total2 {

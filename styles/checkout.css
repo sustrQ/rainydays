@@ -2,6 +2,7 @@
 html,
 body {
   position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -193,7 +194,7 @@ footer > img {
 .breadcrumbs {
   margin: auto 0;
   text-align: center;
-  font-family: "roboto";
+  font-family: "roboto", Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 100;
   font-size: 2.5vw;
   margin-top: 6vw;
@@ -343,7 +344,7 @@ input {
 /** FORM 0 */
 
 fieldset {
-  width: 60vw;
+  width: 70vw;
   margin: 0 auto;
   background-color: #ffffff;
   border: 0.1vw solid #cfcfcf;
@@ -368,7 +369,7 @@ legend {
 }
 
 input {
-  width: 60vw;
+  width: 70vw;
   margin-left: -19vw;
   vertical-align: top;
   display: inline-block;
@@ -402,7 +403,7 @@ input[type="text"] {
 
 .small {
   display: inline-block;
-  width: 23vw;
+  width: 33vw;
   float: right;
 }
 
@@ -431,7 +432,7 @@ input[type="text"] {
 .wrapper > h2 {
   top: 15vw;
   text-align: center;
-  font-family: "roboto slab";
+  font-family: "roboto slab", "Courier New", Courier, monospace;
   font-weight: lighter;
   font-size: 3.5vw;
   color: #3f6168;
@@ -487,7 +488,7 @@ input[type="radio"] {
 .ordersummary > h2 {
   top: 15vw;
   text-align: center;
-  font-family: "roboto slab";
+  font-family: "roboto slab", "Courier New", Courier, monospace;
   font-weight: lighter;
   font-size: 3.5vw;
   color: #3f6168;
