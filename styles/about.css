@@ -171,11 +171,10 @@ footer > img {
 /**************** ABOUT *************/
 
 .maintext {
-  margin-left: 10vw;
-  margin-right: 10vw;
   background-color: rgba(255, 255, 255, 0.568);
   padding-bottom: 0.1vw;
   padding-top: 3vw;
+  width: 100%;
 }
 
 .maintext > h1 {
@@ -190,8 +189,7 @@ footer > img {
 
 .maintext > p {
   font-size: 3vw;
-  margin-right: 3vw;
-  margin-left: 3vw;
+  text-align: center;
   font-family: verdana, Geneva, Tahoma, sans-serif;
   line-height: 5vw;
   color: #00323E;
