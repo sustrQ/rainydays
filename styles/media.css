@@ -1,0 +1,111 @@
+@media only screen and (min-width: 1200px) {
+  /*           GLOBAL             */
+
+  /* NAVBAR */
+
+  .topnav {
+    border-bottom: 1vw solid #063e4b;
+  }
+
+  .topnav > a img {
+    width: 9vw;
+  }
+
+  .topiconlink {
+    font-size: 2.3vw;
+    left: 53vw;
+    margin-right: -5vw;
+    bottom: 0.5vw;
+  }
+
+  .topiconlink:hover {
+    font-size: 2.4vw;
+  }
+
+  .bottomnav {
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    position: relative;
+    bottom: 5vw;
+    background-color: #00000000;
+    border-bottom: 0;
+    box-shadow: 0 0;
+    width: 50vw;
+    left: 25vw;
+    bottom: 5.5vw;
+  }
+
+  .bottomnavlinks {
+    font-size: 1.5vw;
+    bottom: 20vw;
+    color: #063e4b;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-right: 5vw;
+    margin-left: -3vw;
+    font-family: verdana;
+  }
+
+  /* FOOTER */
+
+  footer > img {
+    width: 12vw;
+  }
+
+  .footerlinks {
+    font-size: 2vw;
+    margin-left: 5vw;
+  }
+
+  .footericonstext {
+    font-size: 2vw;
+  }
+
+  /* ENVELOPE */
+
+  .fa-envelope {
+    font-size: 3.5vw;
+    padding: 3vw;
+    bottom: 1vw;
+  }
+
+  /* MAIN TEXT */
+
+  .maintext {
+    padding-top: 0vw;
+  }
+
+  .maintext > h1 {
+    font-size: 6vw;
+    margin-bottom: 0vw;
+  }
+
+  .maintext > p {
+    font-size: 1.5vw;
+    margin-left: -3vw;
+  }
+
+  /* SHOP */
+
+  .row1 {
+    margin-left: 3vw;
+    display: inline-block;
+  }
+
+  .jacket > img {
+    width: 20vw;
+    margin-top: 3vw;
+  }
+
+  .jacket > h2 {
+    font-size: 3vw;
+  }
+
+  .jacket > p {
+    font-size: 1.5vw;
+  }
+
+  .row3 {
+    display: inline-block;
+  }
+}
