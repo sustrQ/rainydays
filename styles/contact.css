@@ -446,6 +446,7 @@ input[type="text"]::placeholder {
   font-family: "roboto slab", "Courier New", Courier, monospace;
   font-weight: lighter;
   font-size: 5vw;
+  color: #063e4b;
 }
 
 .contact > p {

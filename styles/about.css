@@ -189,7 +189,8 @@ footer > img {
 
 .maintext > p {
   font-size: 3vw;
-  text-align: center;
+  text-align: left;
+  margin-left: 15vw;
   font-family: verdana, Geneva, Tahoma, sans-serif;
   line-height: 5vw;
   color: #00323E;
