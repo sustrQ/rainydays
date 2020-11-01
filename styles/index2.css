@@ -4,7 +4,7 @@
   }
   main {
     margin-top: -4vw;
-    height: 20vw;
+    height: 40vw;
     background-image: url(/images/about-mobile.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -13,8 +13,9 @@
   }
 
   .textfrontpage {
-    margin-top: 6vw;
-    margin-left: -30vw;
+    position: relative;
+    top: 5vw;
+    margin: auto 0;
   }
 
   .textfrontpage > h1 {
@@ -44,6 +45,6 @@
 
   .textfrontpage > h3 {
     font-size: 1vw;
-    color: #ffffff;
+    color: #000000;
   }
 }
