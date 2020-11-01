@@ -47,33 +47,29 @@ body {
   opacity: 80%;
 }
 
-  
-  /*       */
-  
-  .fa-stack {
-    opacity: 100%;
-    display: inline-block;
-    position: relative;
-    font-size: 3.5vw;
-    left: -1vw;
-  }
-  
-  .fa-shopping-cart {
-    font-size: 5.5vw;
-    color: #00323e;
-    text-shadow:  -1px 0 rgb(255, 255, 255), 0 2px rgb(255, 255, 255), 1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
-    
-  }
-  
-  .fa-check {
-    font-size: 3.2vw;
-    color: #ffffff;
-    bottom: 1.5vw;
-    left: 0.6vw;
-  }
+/*       */
 
+.fa-stack {
+  opacity: 100%;
+  display: inline-block;
+  position: relative;
+  font-size: 3.5vw;
+  left: -1vw;
+}
 
+.fa-shopping-cart {
+  font-size: 5.5vw;
+  color: #00323e;
+  text-shadow: -1px 0 rgb(255, 255, 255), 0 2px rgb(255, 255, 255),
+    1px 0 rgb(255, 255, 255), 0 -1px rgb(255, 255, 255);
+}
 
+.fa-check {
+  font-size: 3.2vw;
+  color: #ffffff;
+  bottom: 1.5vw;
+  left: 0.6vw;
+}
 
 .bottomnav {
   background-color: #063e4b;
@@ -109,7 +105,7 @@ body {
 }
 
 .bottomnavlinks:hover {
-  color:  #ffffff;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -120,7 +116,7 @@ body {
 
 main {
   overflow: hidden;
-  background-color:  #ffffff;
+  background-color: #ffffff;
   background-size: 100vw;
   height: 100vw;
   background-position: bottom;
@@ -191,7 +187,6 @@ footer > img {
   text-decoration: none;
 }
 
-
 /**************** SHOP *************/
 
 /********* product ******/
@@ -205,13 +200,13 @@ footer > img {
 .imagebox > img {
   width: 70vw;
   display: block;
-  margin: 0 auto; 
+  margin: 0 auto;
   margin-bottom: 2vw;
 }
 
 .imagepicker {
   margin-top: 0;
-  list-style-type:none;
+  list-style-type: none;
   float: left;
   border-bottom: #063e4b;
   width: 100%;
@@ -223,7 +218,7 @@ footer > img {
 
 .imagepicker li {
   float: left;
-  list-style-type:none;
+  list-style-type: none;
   margin-left: -3vw;
   margin-right: 5vw;
 }
@@ -235,8 +230,6 @@ footer > img {
   margin: 1vw;
   border-radius: 5%;
 }
-
-
 
 /********* text ******/
 
@@ -256,7 +249,7 @@ footer > img {
   font-size: 12vw;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: "roboto slab", 'Courier New', Courier, monospace;
+  font-family: "roboto slab", "Courier New", Courier, monospace;
   color: #00323ed3;
   font-weight: lighter;
 }
@@ -264,7 +257,7 @@ footer > img {
 .maintext > h2 {
   margin-top: 0;
   font-size: 6vw;
-  color: #C34F4F;
+  color: #c34f4f;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
 }
@@ -278,7 +271,7 @@ footer > img {
 }
 
 .maintext > p {
-  color: #00323E;
+  color: #00323e;
   margin-top: 0;
   font-size: 5vw;
   font-family: verdana, Geneva, Tahoma, sans-serif;
@@ -289,7 +282,6 @@ footer > img {
 
 /** select */
 
-
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -297,17 +289,17 @@ select {
   font-size: 6vw;
   color: #00323ee0;
   padding: 2vw;
-  background-color:  #ffffff;
+  background-color: #ffffff;
   border-radius: 0%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-bottom: 1vw;
 }
 
 .fa-sort-down {
-margin-left: -10vw;
+  margin-left: -10vw;
   font-size: 9vw;
   display: inline-block;
-  color: #00323E;
+  color: #00323e;
 }
 
 /*** button ********/
@@ -317,9 +309,9 @@ margin-left: -10vw;
 }
 
 .button {
-  background-color:#c7c7c7;
+  background-color: #c7c7c7;
   color: #00323e;
-  font-family: "roboto slab", 'Courier New', Courier, monospace;
+  font-family: "roboto slab", "Courier New", Courier, monospace;
   text-align: center;
   padding-top: 2vw;
   padding-bottom: 2vw;
@@ -348,7 +340,7 @@ margin-left: -10vw;
 }
 
 .green {
-  color: #8EBC71;
+  color: #8ebc71;
   background-color: #8b8b8b77;
   border-radius: 50%;
   padding-left: 2vw;
@@ -358,18 +350,123 @@ margin-left: -10vw;
   margin-left: 5vw;
 }
 
-/***** DESKTOP *******
+@media only screen and (min-width: 1200px) {
+  /* image */
 
-main {
-  overflow: hidden;
-  background-image: url(/images/about.jpg);
-  background-repeat: no-repeat;
-  background-color: #ffffff;
-  /*-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 40vh;
-  height: 90vh;
-  background-repeat: no-repeat;
-  background-position: left top;
+  .imagebox {
+    width: 0vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    position: relative;
+    left: 13vw;
+  }
+
+  .imagebox > img {
+    width: 33vw;
+  }
+
+  .imagepicker {
+    position: relative;
+    bottom: 37vw;
+    width: 10vw;
+  }
+
+  .imagepicker li {
+    float: left;
+  }
+
+  .imagepicker li img {
+    width: 10vw;
+    margin: 0.3vw;
+    border-radius: 0%;
+  }
+
+  /** text **/
+
+  .margin {
+    display: inline-block;
+    position: relative;
+    bottom: 40vw;
+    left: 32vw;
+    margin-left: 5vw;
+  }
+
+  .maintext {
+    display: inline-block;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+  }
+
+  .maintext > h1 {
+    font-size: 3vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .maintext > h2 {
+    margin-top: 0;
+    font-size: 1.2vw;
+    margin-bottom: -1vw;
+  }
+
+  .linetext {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  .maintext > p {
+    margin-top: 0;
+    font-size: 1.2vw;
+    line-height: 7vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+  }
+
+  /** select */
+
+  select {
+    width: 100%;
+    font-size: 1.2vw;
+    padding: 1vw;
+    margin-bottom: 1vw;
+  }
+
+  .fa-sort-down {
+    margin-left: -4vw;
+    font-size: 1.2vw;
+    display: inline-block;
+  }
+
+  /* button */
+
+  .button {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1.4vw;
+    margin-top: 7vw;
+    width: 100%;
+  }
+
+  .underbuttontext {
+    font-size: 1.2vw;
+    margin-top: -11vw;
+  }
+
+  .underbuttontext > p {
+    display: inline-block;
+  }
+
+  .green {
+    padding-left: 0.2vw;
+    padding-right: 0.5vw;
+    padding-top: 0.3vw;
+    font-size: 0.5vw;
+    margin-left: 1.5vw;
+  }
+
+  main {
+    height: 8vw;
+    background-position: bottom;
+    padding-bottom: 50%;
+  }
 }

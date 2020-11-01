@@ -1,4 +1,7 @@
 @media only screen and (min-width: 1200px) {
+  .topnav {
+    background-image: url(/images/texture3.jpg);
+  }
   main {
     margin-top: -4vw;
     height: 20vw;
