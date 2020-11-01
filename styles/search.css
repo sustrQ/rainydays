@@ -181,23 +181,27 @@ footer > img {
   width: 80vw;
 }
 
-/*desktop view*/
-/*
-body {
-  overflow: auto;
-  background-image: url(/images/texture-background.jpg);
-  background-repeat: repeat-y;
-  background-color: #e4e4e4;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  position: relative;
-  padding-bottom: 20vw;
-  height: 100vh;
-}
+@media only screen and (min-width: 1200px) {
+  body {
+    padding-bottom: 1vw;
+  }
 
-*/
+  .searchbar {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto;
+    top: 1vw;
+    padding: 10px;
+    background-color: white;
+  }
+
+  .searchbar > i.fas {
+    font-size: 2.5vw;
+  }
+
+  .searchbar input[type="text"] {
+    font-size: 2vw;
+    padding-top: 0.5vw;
+    padding-bottom: 1vw;
+    width: 40vw;
+  }
