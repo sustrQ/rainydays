@@ -378,3 +378,18 @@ select {
 .italic {
   font-style: italic;
 }
+
+@media only screen and (min-width: 1200px) {
+  main {
+    height: 15vw;
+    padding-bottom: 30%;
+  }
+
+  .maintext > h1 {
+    font-size: 3vw;
+  }
+  .breadcrumbs {
+    font-size: 1.2vw;
+    margin-top: 0vw;
+  }
+}

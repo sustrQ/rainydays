@@ -435,3 +435,70 @@ input[type="text"] {
   opacity: 60%;
   letter-spacing: 1vw;
 }
+
+@media only screen and (min-width: 1200px) {
+  main {
+    padding-bottom: 1vw;
+    height: 80vw;
+  }
+
+  .topnav {
+    background-image: url(/images/texture3.jpg);
+  }
+
+  /* Form */
+
+  legend {
+    margin-bottom: 1vw;
+  }
+  fieldset {
+    width: 25vw;
+    margin-top: 0vw;
+  }
+
+  legend > h1 {
+    font-size: 1.8vw;
+  }
+
+  input {
+    width: 25vw;
+    height: 2vw;
+  }
+
+  label {
+    display: inline-block;
+    height: 7vw;
+    font-size: 1vw;
+    margin-bottom: -10vw;
+  }
+
+  input[type="text"]::placeholder {
+    font-size: 1vw;
+    padding-bottom: 2vw;
+  }
+
+  input[type="text"] {
+    padding-bottom: 0vw;
+    font-size: 1.2vw;
+  }
+
+  input[type="textarea"] {
+    padding-bottom: 10vw;
+    font-size: 1.2vw;
+  }
+
+  /* button */
+  .button {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1.4vw;
+    position: relative;
+    top: 0.5vw;
+    left: 0vw;
+    width: 25.3vw;
+    margin-left: 0vw;
+    margin-right: 0vw;
+    margin: 0 auto;
+    margin-bottom: 0vw;
+  }
+}

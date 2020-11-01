@@ -377,3 +377,100 @@ select {
 .italic {
   font-style: italic;
 }
+
+@media only screen and (min-width: 1200px) {
+  main {
+    padding-bottom: 10%;
+  }
+
+  .maintext > h1 {
+    font-size: 3vw;
+    margin-bottom: 3vw;
+  }
+  .breadcrumbs {
+    font-size: 1.2vw;
+    margin-top: 0vw;
+  }
+
+  .row2 {
+    margin-left: 50vw;
+    margin-right: 0vw;
+  }
+
+  .row2 > h2 {
+    font-size: 2vw;
+    color: #00323e;
+    font-family: "roboto slab", "Courier New", Courier, monospace;
+    font-weight: lighter;
+    margin-top: 2vw;
+    margin-bottom: 0;
+  }
+
+  .row2 > p {
+    font-size: 1.2vw;
+  }
+
+  .price {
+    font-size: 1.2vw;
+  }
+
+  .ordersummary {
+    width: 20vw;
+    margin: 0 auto;
+    padding-left: 1.5vw;
+    padding-right: 1vw;
+    margin-bottom: 4vw;
+  }
+
+  .box > p {
+    margin-left: 2vw;
+    font-size: 1.2vw;
+  }
+
+  .box {
+    margin-top: 5vw;
+  }
+
+  .total {
+    margin-left: 2vw;
+    margin-top: 3vw;
+    font-size: 1.2vw;
+  }
+
+  /* qty */
+  select {
+    width: 5vw;
+    font-size: 1.2vw;
+    color: #00323ee0;
+    padding: 1vw;
+  }
+
+  .fa-sort-down {
+    margin-left: -2vw;
+    font-size: 1.2vw;
+  }
+
+  .row1 > img {
+    width: 13vw;
+    margin-left: 25vw;
+    margin-right: 10vw;
+  }
+
+  .shoppingbag {
+    width: 100vw;
+    margin: 0 auto;
+    background-color: #fafafa;
+    height: 18vw;
+    border: 0.1vw solid #00000065;
+    margin-bottom: 5vw;
+  }
+
+  .button {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1.4vw;
+    margin-top: 7vw;
+    margin: 0 auto !important;
+    width: 40%;
+  }
+}
